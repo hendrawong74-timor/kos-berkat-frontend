@@ -1,6 +1,4 @@
-// src/config.js
-const config = {
-  apiBaseUrl: process.env.NEXT_PUBLIC_API_URL || process.env.REACT_APP_API_URL,
-};
+// Ganti URL ini dengan URL Render.com kamu
+const API_URL = process.env.REACT_APP_API_URL || 'https://kos-berkat-backend.up.railway.app';
 
-export default config;
+export default API_URL;
